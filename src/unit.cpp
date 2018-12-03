@@ -80,6 +80,11 @@ float Unit::getAttack()
     return attack;
 }
 
+ofVec2f Unit::getTargetPosition()
+{
+    return targetPosition;
+}
+
 void Unit::updatePosition()
 {
     float movement = speed * ofGetLastFrameTime();

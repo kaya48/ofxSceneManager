@@ -27,6 +27,7 @@ public:
     void add(Skill *&&skill);
 
     float getAttack();
+    ofVec2f getTargetPosition();
 
 private:
     void updatePosition();

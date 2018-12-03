@@ -8,6 +8,7 @@
 #include "shot.h"
 #include "tapeffect.h"
 #include "cameramanager.h"
+#include "predictline.h"
 
 class TestScene : public ofxScene
 {
@@ -19,6 +20,7 @@ public:
     Unit unit;
     UnitManager unitManager;
     TapEffect tapEffect;
+    PredictLine predictLine;
 };
 
 #endif // TESTSCENE_H
